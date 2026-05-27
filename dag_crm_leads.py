@@ -1,8 +1,3 @@
-"""
-Airflow DAG: загрузка CRM-лидов из API в PostgreSQL (stg.crm_leads).
-Расписание: каждый день в 06:00 UTC.
-"""
-
 from __future__ import annotations
 
 from datetime import datetime, timedelta
